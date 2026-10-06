@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* === Paleta Vice City === */
+  --color-club-bg: #ecebe1;
+  --color-club-surface: #ffffff;
+  --color-club-primary: #b0bf3f;
+  --color-club-primary-hover: #9da833;
+  --color-club-accent: #000000;
+  --color-text-main: #4c591c;
+  --color-text-muted: #826e77;
+  --color-btn-text: #ffffff;
+
+  /* === Tipografía === */
+  --font-sans: "Geist", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--color-club-bg);
+  color: var(--color-text-main);
+}
